@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class SignUpOrSignInViewController: UIViewController {
 
@@ -16,15 +17,25 @@ class SignUpOrSignInViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func SignInAnonymously(_ sender: Any) {
+        
+        Auth.auth().signInAnonymously { (success, error) in
+            
+            if error == nil {
+            
+                let storyboard: UIStoryboard = self.storyboard!
+                let viewOfAnonymousSignUp = storyboard.instantiateViewController(withIdentifier: "didSignUpByAnonymous")
+                self.navigationController?.pushViewController(viewOfAnonymousSignUp, animated: true)
+//                print(success?.user)
+                
+            }
+            
+            
+        }
+        
     }
-    */
+    
+    
 
 }

@@ -3,27 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA4C0AA401C55119F402E0AB /* Pods_OtakuMatchingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C625C2A08288B5ACAC5B7B /* Pods_OtakuMatchingApp.framework */; };
 		B0AF7E0923DEC93B00AF1329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF7E0823DEC93B00AF1329 /* AppDelegate.swift */; };
 		B0AF7E0B23DEC93B00AF1329 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF7E0A23DEC93B00AF1329 /* SceneDelegate.swift */; };
-		B0AF7E0D23DEC93B00AF1329 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF7E0C23DEC93B00AF1329 /* ViewController.swift */; };
 		B0AF7E1023DEC93B00AF1329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0AF7E0E23DEC93B00AF1329 /* Main.storyboard */; };
 		B0AF7E1223DEC93C00AF1329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0AF7E1123DEC93C00AF1329 /* Assets.xcassets */; };
 		B0AF7E1523DEC93C00AF1329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0AF7E1323DEC93C00AF1329 /* LaunchScreen.storyboard */; };
+		B0AF7E1D23DECEE800AF1329 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0AF7E1C23DECEE800AF1329 /* GoogleService-Info.plist */; };
+		B0AF7E1F23DED5BE00AF1329 /* SignUpOrSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF7E1E23DED5BE00AF1329 /* SignUpOrSignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		316288D61CAA9D92C231F358 /* Pods-OtakuMatchingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtakuMatchingApp.release.xcconfig"; path = "Target Support Files/Pods-OtakuMatchingApp/Pods-OtakuMatchingApp.release.xcconfig"; sourceTree = "<group>"; };
+		503C70EEC086A93584B7534A /* Pods-OtakuMatchingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtakuMatchingApp.debug.xcconfig"; path = "Target Support Files/Pods-OtakuMatchingApp/Pods-OtakuMatchingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A0C625C2A08288B5ACAC5B7B /* Pods_OtakuMatchingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtakuMatchingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0AF7E0523DEC93B00AF1329 /* OtakuMatchingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtakuMatchingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0AF7E0823DEC93B00AF1329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0AF7E0A23DEC93B00AF1329 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B0AF7E0C23DEC93B00AF1329 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B0AF7E0F23DEC93B00AF1329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0AF7E1123DEC93C00AF1329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0AF7E1423DEC93C00AF1329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0AF7E1623DEC93C00AF1329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0AF7E1C23DECEE800AF1329 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B0AF7E1E23DED5BE00AF1329 /* SignUpOrSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpOrSignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4C0AA401C55119F402E0AB /* Pods_OtakuMatchingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		161CB9FA2189AA1C7C7FDEB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0C625C2A08288B5ACAC5B7B /* Pods_OtakuMatchingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4552E8C5C9DE8A4B3BA35D2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				503C70EEC086A93584B7534A /* Pods-OtakuMatchingApp.debug.xcconfig */,
+				316288D61CAA9D92C231F358 /* Pods-OtakuMatchingApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B0AF7DFC23DEC93B00AF1329 = {
 			isa = PBXGroup;
 			children = (
 				B0AF7E0723DEC93B00AF1329 /* OtakuMatchingApp */,
 				B0AF7E0623DEC93B00AF1329 /* Products */,
+				4552E8C5C9DE8A4B3BA35D2A /* Pods */,
+				161CB9FA2189AA1C7C7FDEB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +84,12 @@
 			children = (
 				B0AF7E0823DEC93B00AF1329 /* AppDelegate.swift */,
 				B0AF7E0A23DEC93B00AF1329 /* SceneDelegate.swift */,
-				B0AF7E0C23DEC93B00AF1329 /* ViewController.swift */,
 				B0AF7E0E23DEC93B00AF1329 /* Main.storyboard */,
 				B0AF7E1123DEC93C00AF1329 /* Assets.xcassets */,
 				B0AF7E1323DEC93C00AF1329 /* LaunchScreen.storyboard */,
 				B0AF7E1623DEC93C00AF1329 /* Info.plist */,
+				B0AF7E1C23DECEE800AF1329 /* GoogleService-Info.plist */,
+				B0AF7E1E23DED5BE00AF1329 /* SignUpOrSignInViewController.swift */,
 			);
 			path = OtakuMatchingApp;
 			sourceTree = "<group>";
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0AF7E1923DEC93C00AF1329 /* Build configuration list for PBXNativeTarget "OtakuMatchingApp" */;
 			buildPhases = (
+				ECE2877E593D397BF96D96E5 /* [CP] Check Pods Manifest.lock */,
 				B0AF7E0123DEC93B00AF1329 /* Sources */,
 				B0AF7E0223DEC93B00AF1329 /* Frameworks */,
 				B0AF7E0323DEC93B00AF1329 /* Resources */,
+				41DB0B6D154DC0A6035BDC99 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,17 +157,60 @@
 				B0AF7E1523DEC93C00AF1329 /* LaunchScreen.storyboard in Resources */,
 				B0AF7E1223DEC93C00AF1329 /* Assets.xcassets in Resources */,
 				B0AF7E1023DEC93B00AF1329 /* Main.storyboard in Resources */,
+				B0AF7E1D23DECEE800AF1329 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41DB0B6D154DC0A6035BDC99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OtakuMatchingApp/Pods-OtakuMatchingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OtakuMatchingApp/Pods-OtakuMatchingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OtakuMatchingApp/Pods-OtakuMatchingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE2877E593D397BF96D96E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OtakuMatchingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B0AF7E0123DEC93B00AF1329 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0AF7E0D23DEC93B00AF1329 /* ViewController.swift in Sources */,
+				B0AF7E1F23DED5BE00AF1329 /* SignUpOrSignInViewController.swift in Sources */,
 				B0AF7E0923DEC93B00AF1329 /* AppDelegate.swift in Sources */,
 				B0AF7E0B23DEC93B00AF1329 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +354,7 @@
 		};
 		B0AF7E1A23DEC93C00AF1329 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503C70EEC086A93584B7534A /* Pods-OtakuMatchingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +372,7 @@
 		};
 		B0AF7E1B23DEC93C00AF1329 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316288D61CAA9D92C231F358 /* Pods-OtakuMatchingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
