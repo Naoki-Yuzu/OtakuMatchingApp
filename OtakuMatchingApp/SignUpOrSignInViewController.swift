@@ -16,6 +16,7 @@ class SignUpOrSignInViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         print("デュフフ")
+        print("にょほほ")
     }
     
     
